@@ -1,6 +1,6 @@
 # reads name.txt into a variable my_name"
 
-with open('name.txt') as f:
+with open('output/name.txt') as f:
     my_name = f.read()
 
 # writes a new file named output/hello.txt

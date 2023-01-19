@@ -9,7 +9,7 @@ vegetables = [
 
 import csv 
 
-with open('vegetables.csv', 'w') as f:
+with open('output/vegetables.csv', 'w') as f:
     writer = csv.writer(f)
     writer.writerow(["name","color"])
 
